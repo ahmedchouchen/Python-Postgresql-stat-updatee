@@ -9,6 +9,7 @@ def check_database_working(host, port, user, password, database):
     cursor.execute("SELECT 1")
     result = cursor.fetchone()
 
+
     # Check the result of the query
     if result == (1,):
         print("Database is working")
