@@ -11,15 +11,16 @@ def connect():
         cur1 = conn.cursor()
         cur2 = conn.cursor()
 
-        x = '''SELECT age  FROM python_test  WHERE id = '1';'''
-        y = '''SELECT age  FROM python_test  WHERE id = '2';'''
+        x = '''SELECT last_autoanalyze FROM pg_stat_all_tables WHERE relname = 'test3';   '''
+        y = '''SELECT  last_analyze FROM pg_stat_all_tables WHERE relname = 'test3';   '''
         cur1.execute(x)
         reponse_query1 = cur1.fetchall()
         cur2.execute(y)
         reponse_query2 = cur2.fetchall()
-        print(reponse_query1[0][0])
-        print(reponse_query2[0][0])
-
+        last_autoanalyze=reponse_query1[0][0]
+        last_analyze=reponse_query2[0][0]
+        print(last_autoanalyze)
+        print(last_analyze)
         cur1.close()
         cur2.close()
  except (Exception, psycopg2.DatabaseError) as error:
