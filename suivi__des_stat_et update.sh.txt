@@ -1,0 +1,9 @@
+un script cappable de :
+se connecter  au serveur Postgresql
+connecter a une base de donées "test"
+voir l'etat de mise a jour des statistiques sur une table
+il vous informe si les statistique sont à jour ou non [conditions]
+si les statistiques ne sont pas à jour il donne le choix à l'utilisateur de faire ou non  les mise a jour (y/n)
+en cas ou l'utilisateur accepte de mettre à jour les statistique une ANALYZE sera lancer automatiquement
+
+enfin les statistiques sont à jour   et les dates des mise  àjour sont last_autoanalyze et last_analyze sont afficher 
