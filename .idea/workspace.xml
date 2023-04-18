@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="091cb4c8-2552-4c2b-adc0-b1481b13f43b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/calcul_des _stat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/convert_time _to_str.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/difference_time_analyze.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/statistique.py" beforeDir="false" afterPath="$PROJECT_DIR$/statistique.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,6 +166,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
