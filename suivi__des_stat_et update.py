@@ -47,7 +47,7 @@ def connect():
         diff_time=(int(time_now))-(int(time_last_autoanalyze))
         print(diff_time)
 
-        if diff_time < 8640 :
+        if diff_time < 60 :
             print("the statistic on your table is updated  ")
         else:
             print("the statistic on your table is not updated  ")
