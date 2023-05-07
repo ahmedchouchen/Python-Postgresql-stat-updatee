@@ -1,5 +1,5 @@
 ########################################################################################################################
-# test de mise à jour  des statistiques sur une table
+# test de mise à jour  des statistiques sur une table test3 de la DB test
 # Auteur  : ACH
 # Date    : 18/04/2023
 # Version : 0.5
